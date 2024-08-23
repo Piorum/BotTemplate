@@ -1,6 +1,3 @@
-using Discord;
-using Discord.WebSocket;
-
 namespace BotTemplate;
 
 public abstract class BotBase{

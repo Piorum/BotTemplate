@@ -1,7 +1,4 @@
-﻿using Discord;
-using Discord.WebSocket;
-
-namespace BotTemplate;
+﻿namespace BotTemplate;
 
 public class Program{
         
