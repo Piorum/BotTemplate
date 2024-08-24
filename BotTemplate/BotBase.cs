@@ -2,7 +2,8 @@ namespace BotTemplate;
 
 public abstract class BotBase{
 
-    private readonly string helpCmd = ".help";
+    protected const char prefix = '.';
+    protected const string helpCmd = $"{prefix}help";
     private readonly DiscordSocketClient _client;
     private string _token;
 
