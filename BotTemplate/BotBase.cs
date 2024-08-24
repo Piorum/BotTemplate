@@ -28,7 +28,7 @@ public abstract class BotBase{
         await Task.Delay(-1);
     }
 
-    public static async Task SendMessage(ISocketMessageChannel channel, string message){
+    protected static async Task SendMessage(ISocketMessageChannel channel, string message){
         await channel.SendMessageAsync(message);
     }
 

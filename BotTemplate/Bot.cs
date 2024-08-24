@@ -8,6 +8,7 @@ public class Bot(string t, DiscordSocketConfig c) : BotBase(t,c)
             if (await CommandHandlerAsync(message)) return;
         } else {
         //do something else with the message
+            return;
         }
     }
 
